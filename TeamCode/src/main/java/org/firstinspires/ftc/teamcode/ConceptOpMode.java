@@ -24,6 +24,7 @@ public class ConceptOpMode extends OpMode{
     }
     @Override
     public void init_loop() {
+
     }
 
     /*
@@ -31,6 +32,7 @@ public class ConceptOpMode extends OpMode{
      */
     @Override
     public void start() {
+
     }
 
     /*
@@ -57,7 +59,8 @@ public class ConceptOpMode extends OpMode{
         else
             robot.leftArm.setPower(0.0);
 
-        // Send telemetry message to signify robot running;
+        // Send telemetry message to signify robot running
+        telemetry.addData("ROBOT STATUS:","Not on fire");
         telemetry.addData("left",  "%.2f", left);
         telemetry.addData("right", "%.2f", right);
     }
@@ -67,5 +70,6 @@ public class ConceptOpMode extends OpMode{
      */
     @Override
     public void stop() {
+        telemetry.addData("ROBOT STATUS:", "Stopped, OpMode killed by user");
     }
 }
