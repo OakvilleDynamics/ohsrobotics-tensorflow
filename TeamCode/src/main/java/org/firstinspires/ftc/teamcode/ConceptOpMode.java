@@ -6,7 +6,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.util.Range;
 
 @TeleOp(name="Pushbot: Teleop Tank", group="Pushbot")
-@Disabled
+
 public class ConceptOpMode extends OpMode{
 
     // Vars

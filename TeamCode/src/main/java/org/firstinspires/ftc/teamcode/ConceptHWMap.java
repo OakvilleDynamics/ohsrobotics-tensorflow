@@ -18,7 +18,7 @@ public class ConceptHWMap {
     private ElapsedTime period  = new ElapsedTime();
 
     // Constructor
-    // Used in opmodes for which hardware map is wich
+    // Used in opmodes for which hardware map is which
     public ConceptHWMap(){
 
     }
