@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Programming\\ohsrobotics-new-tensorflow\\TeamCode\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "/home/garrettsummerfi3ld/code/ohsrobotics-new-tensorflow/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Garrett\\.gradle\\caches\\transforms-1\\files-1.1\\RobotCore-release.aar\\09e566c66ea52e987c30161c88b0f8d2\\res\\values-v11\\values-v11.xml",
+                    "source": "/home/garrettsummerfi3ld/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/d46031eae90e1a88303df7e806022a3d/res/values-v11/values-v11.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
